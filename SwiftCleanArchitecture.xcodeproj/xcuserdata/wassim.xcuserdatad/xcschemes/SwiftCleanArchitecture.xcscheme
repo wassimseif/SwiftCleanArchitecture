@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CFC016321F665ABD00934F84"
+               BuildableName = "SwiftCleanArchitecture.app"
+               BlueprintName = "SwiftCleanArchitecture"
+               ReferencedContainer = "container:SwiftCleanArchitecture.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CFC016491F665ABD00934F84"
+               BuildableName = "SwiftCleanArchitectureTests.xctest"
+               BlueprintName = "SwiftCleanArchitectureTests"
+               ReferencedContainer = "container:SwiftCleanArchitecture.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CFC016541F665ABD00934F84"
+               BuildableName = "SwiftCleanArchitectureUITests.xctest"
+               BlueprintName = "SwiftCleanArchitectureUITests"
+               ReferencedContainer = "container:SwiftCleanArchitecture.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CFC016321F665ABD00934F84"
+            BuildableName = "SwiftCleanArchitecture.app"
+            BlueprintName = "SwiftCleanArchitecture"
+            ReferencedContainer = "container:SwiftCleanArchitecture.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CFC016321F665ABD00934F84"
+            BuildableName = "SwiftCleanArchitecture.app"
+            BlueprintName = "SwiftCleanArchitecture"
+            ReferencedContainer = "container:SwiftCleanArchitecture.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CFC016321F665ABD00934F84"
+            BuildableName = "SwiftCleanArchitecture.app"
+            BlueprintName = "SwiftCleanArchitecture"
+            ReferencedContainer = "container:SwiftCleanArchitecture.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
