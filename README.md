@@ -11,5 +11,4 @@ Main programming/iOS aspects featured here:
 - Data binding using RxSwift
 - Flow Coordinator
 - Dependency Injection
-- Git Flow 
 ```
