@@ -12,3 +12,5 @@ Main programming/iOS aspects featured here:
 - Flow Coordinator
 - Dependency Injection
 ```
+
+Our goal is to create a simple "Friends" app that will contain a list of all your friends & their birthdays.
