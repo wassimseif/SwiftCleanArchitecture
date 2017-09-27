@@ -10,4 +10,5 @@ Main programming/iOS aspects featured here:
 - Advanced Models
 - Data binding using RxSwift
 - Flow Coordinator
+- Dependency Injection
 ```
