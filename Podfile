@@ -6,7 +6,7 @@ target 'SwiftCleanArchitecture' do
   use_frameworks!
 
   # Pods for SwiftCleanArchitecture
-
+  pod 'Moya/RxSwift'
   target 'SwiftCleanArchitectureTests' do
     inherit! :search_paths
     # Pods for testing
