@@ -14,6 +14,12 @@
 		11C29E4A1F7C292000AA2F19 /* ObservableType+Moya+RxCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C29E491F7C292000AA2F19 /* ObservableType+Moya+RxCodable.swift */; };
 		11C29E4C1F7C294300AA2F19 /* Single+Moya+RxCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C29E4B1F7C294300AA2F19 /* Single+Moya+RxCodable.swift */; };
 		6AB567716D111DE3AE51CB5B /* Pods_SwiftCleanArchitectureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5994B593127CC35713FF11D /* Pods_SwiftCleanArchitectureUITests.framework */; };
+		CF26792E1F7CBED900E97558 /* ListUsersConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2679281F7CBED900E97558 /* ListUsersConfigurator.swift */; };
+		CF26792F1F7CBED900E97558 /* ListUsersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2679291F7CBED900E97558 /* ListUsersInteractor.swift */; };
+		CF2679301F7CBED900E97558 /* ListUsersModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26792A1F7CBED900E97558 /* ListUsersModels.swift */; };
+		CF2679311F7CBED900E97558 /* ListUsersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26792B1F7CBED900E97558 /* ListUsersPresenter.swift */; };
+		CF2679321F7CBED900E97558 /* ListUsersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26792C1F7CBED900E97558 /* ListUsersRouter.swift */; };
+		CF2679331F7CBED900E97558 /* ListUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26792D1F7CBED900E97558 /* ListUsersViewController.swift */; };
 		CFC016371F665ABD00934F84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC016361F665ABD00934F84 /* AppDelegate.swift */; };
 		CFC016391F665ABD00934F84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC016381F665ABD00934F84 /* ViewController.swift */; };
 		CFC0163C1F665ABD00934F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC0163A1F665ABD00934F84 /* Main.storyboard */; };
@@ -57,6 +63,12 @@
 		9914F2A0920D0D6DAEF76809 /* Pods_SwiftCleanArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCleanArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B331B33BBA24279416C21BE5 /* Pods-SwiftCleanArchitectureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCleanArchitectureUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCleanArchitectureUITests/Pods-SwiftCleanArchitectureUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C25ADBBDC60EFA88AF99EC7A /* Pods-SwiftCleanArchitectureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCleanArchitectureUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCleanArchitectureUITests/Pods-SwiftCleanArchitectureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF2679281F7CBED900E97558 /* ListUsersConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersConfigurator.swift; sourceTree = "<group>"; };
+		CF2679291F7CBED900E97558 /* ListUsersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersInteractor.swift; sourceTree = "<group>"; };
+		CF26792A1F7CBED900E97558 /* ListUsersModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersModels.swift; sourceTree = "<group>"; };
+		CF26792B1F7CBED900E97558 /* ListUsersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersPresenter.swift; sourceTree = "<group>"; };
+		CF26792C1F7CBED900E97558 /* ListUsersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersRouter.swift; sourceTree = "<group>"; };
+		CF26792D1F7CBED900E97558 /* ListUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersViewController.swift; sourceTree = "<group>"; };
 		CFC016331F665ABD00934F84 /* SwiftCleanArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCleanArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC016361F665ABD00934F84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFC016381F665ABD00934F84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,13 +115,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1155C4DE1F7C2BE500C20D85 /* List Users */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "List Users";
-			sourceTree = "<group>";
-		};
 		11C29E391F7C278300AA2F19 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,14 +160,6 @@
 			path = "Core RxCodable";
 			sourceTree = "<group>";
 		};
-		11C29E4D1F7C2B1F00AA2F19 /* Scenes */ = {
-			isa = PBXGroup;
-			children = (
-				1155C4DE1F7C2BE500C20D85 /* List Users */,
-			);
-			path = Scenes;
-			sourceTree = "<group>";
-		};
 		A7CA8FC5B21FF1ADC3068433 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +181,27 @@
 				D5994B593127CC35713FF11D /* Pods_SwiftCleanArchitectureUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFBDA6411F7CBAA000D86A7A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CFBDA6421F7CBAA600D86A7A /* List Users */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		CFBDA6421F7CBAA600D86A7A /* List Users */ = {
+			isa = PBXGroup;
+			children = (
+				CF2679281F7CBED900E97558 /* ListUsersConfigurator.swift */,
+				CF2679291F7CBED900E97558 /* ListUsersInteractor.swift */,
+				CF26792A1F7CBED900E97558 /* ListUsersModels.swift */,
+				CF26792B1F7CBED900E97558 /* ListUsersPresenter.swift */,
+				CF26792C1F7CBED900E97558 /* ListUsersRouter.swift */,
+				CF26792D1F7CBED900E97558 /* ListUsersViewController.swift */,
+			);
+			path = "List Users";
 			sourceTree = "<group>";
 		};
 		CFC0162A1F665ABD00934F84 = {
@@ -211,7 +229,7 @@
 		CFC016351F665ABD00934F84 /* SwiftCleanArchitecture */ = {
 			isa = PBXGroup;
 			children = (
-				11C29E4D1F7C2B1F00AA2F19 /* Scenes */,
+				CFBDA6411F7CBAA000D86A7A /* Scenes */,
 				11C29E391F7C278300AA2F19 /* Helpers */,
 				CFC016361F665ABD00934F84 /* AppDelegate.swift */,
 				CFC016381F665ABD00934F84 /* ViewController.swift */,
@@ -319,7 +337,7 @@
 				TargetAttributes = {
 					CFC016321F665ABD00934F84 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 4LQ43Y6TLH;
+						DevelopmentTeam = 924RDGY8WL;
 						ProvisioningStyle = Automatic;
 					};
 					CFC016491F665ABD00934F84 = {
@@ -544,15 +562,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF2679311F7CBED900E97558 /* ListUsersPresenter.swift in Sources */,
+				CF26792F1F7CBED900E97558 /* ListUsersInteractor.swift in Sources */,
 				11C29E4C1F7C294300AA2F19 /* Single+Moya+RxCodable.swift in Sources */,
+				CF2679331F7CBED900E97558 /* ListUsersViewController.swift in Sources */,
 				11C29E411F7C280400AA2F19 /* Single+Codable.swift in Sources */,
 				11C29E481F7C28FD00AA2F19 /* Maybe+Moya+RxCodable.swift in Sources */,
 				11C29E431F7C282300AA2F19 /* Maybe+Codable.swift in Sources */,
 				CFC016391F665ABD00934F84 /* ViewController.swift in Sources */,
+				CF2679321F7CBED900E97558 /* ListUsersRouter.swift in Sources */,
+				CF2679301F7CBED900E97558 /* ListUsersModels.swift in Sources */,
 				CFC0163F1F665ABD00934F84 /* SwiftCleanArchitecture.xcdatamodeld in Sources */,
 				11C29E4A1F7C292000AA2F19 /* ObservableType+Moya+RxCodable.swift in Sources */,
 				CFC016371F665ABD00934F84 /* AppDelegate.swift in Sources */,
 				11C29E3F1F7C27DF00AA2F19 /* ObservableType+Codable.swift in Sources */,
+				CF26792E1F7CBED900E97558 /* ListUsersConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -717,7 +741,7 @@
 			baseConfigurationReference = F4D44AE4029DBA410DD5FD69 /* Pods-SwiftCleanArchitecture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4LQ43Y6TLH;
+				DEVELOPMENT_TEAM = 924RDGY8WL;
 				INFOPLIST_FILE = SwiftCleanArchitecture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wassimsef.SwiftCleanArchitecture;
@@ -731,7 +755,7 @@
 			baseConfigurationReference = 741C42C5FE7E9AC73F94ED05 /* Pods-SwiftCleanArchitecture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4LQ43Y6TLH;
+				DEVELOPMENT_TEAM = 924RDGY8WL;
 				INFOPLIST_FILE = SwiftCleanArchitecture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wassimsef.SwiftCleanArchitecture;
