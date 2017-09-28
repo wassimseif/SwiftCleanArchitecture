@@ -5,5 +5,16 @@
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
-  "profile": { "name": "typicode" }
+  "profile": { "name": "typicode" },
+  "users" : [{
+    "id" : 1,
+    "name" : "Wassim Seifeddine",
+    "email" : "wassim_seifeddine95@live.com",
+    "address" : {
+      "country" : "Lebanon",
+      "city" : "Jezzine"
+    }
+
+    }]
+
 }

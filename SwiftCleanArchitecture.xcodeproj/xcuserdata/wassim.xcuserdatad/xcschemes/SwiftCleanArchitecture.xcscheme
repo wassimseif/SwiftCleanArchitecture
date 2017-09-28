@@ -59,6 +59,26 @@
                ReferencedContainer = "container:SwiftCleanArchitecture.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CF506FA71F7CCBFA00C9ED30"
+               BuildableName = "DomainTests.xctest"
+               BlueprintName = "DomainTests"
+               ReferencedContainer = "container:SwiftCleanArchitecture.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CF506FC91F7CD7D600C9ED30"
+               BuildableName = "CoreDataPlatformTests.xctest"
+               BlueprintName = "CoreDataPlatformTests"
+               ReferencedContainer = "container:SwiftCleanArchitecture.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
