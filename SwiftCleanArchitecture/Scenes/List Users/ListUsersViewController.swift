@@ -11,14 +11,18 @@
 import UIKit
 
 protocol ListUsersViewControllerInput {
-    
+    func display(users usrs : [ListUsersScene.User])
 }
 
 protocol ListUsersViewControllerOutput {
     
+    func getUsers() 
 }
 
 class ListUsersViewController: UITableViewController, ListUsersViewControllerInput {
+    
+    
+    
     
     var output: ListUsersViewControllerOutput?
     var router: ListUsersRouter?
@@ -34,6 +38,7 @@ class ListUsersViewController: UITableViewController, ListUsersViewControllerInp
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        output?.getUsers()
     }
     
     // MARK: Requests
@@ -41,6 +46,11 @@ class ListUsersViewController: UITableViewController, ListUsersViewControllerInp
     
     // MARK: Display logic
     
+    
+    func display(users usrs: [ListUsersScene.User]) {
+        
+    }
+
 }
 
 //This should be on configurator but for some reason storyboard doesn't detect ViewController's name if placed there

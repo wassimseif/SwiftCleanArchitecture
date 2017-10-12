@@ -13,6 +13,11 @@ import UIKit
 // MARK: Connect View, Interactor, and Presenter
 
 extension ListUsersInteractor: ListUsersViewControllerOutput, ListUsersRouterDataSource, ListUsersRouterDataDestination {
+    func getUsers() {
+        
+    }
+    
+
 }
 
 extension ListUsersPresenter: ListUsersInteractorOutput {
@@ -26,6 +31,7 @@ class ListUsersConfigurator {
     private init() {}
     
     // MARK: Configuration
+    
     
     func configure(viewController: ListUsersViewController) {
         

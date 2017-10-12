@@ -12,4 +12,8 @@
 
 struct ListUsersScene {
     
+    struct User  {
+        var name : String
+        var phoneNumber : String 
+    }
 }
