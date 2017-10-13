@@ -14,17 +14,9 @@
 		11C29E4A1F7C292000AA2F19 /* ObservableType+Moya+RxCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C29E491F7C292000AA2F19 /* ObservableType+Moya+RxCodable.swift */; };
 		11C29E4C1F7C294300AA2F19 /* Single+Moya+RxCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C29E4B1F7C294300AA2F19 /* Single+Moya+RxCodable.swift */; };
 		6AB567716D111DE3AE51CB5B /* Pods_SwiftCleanArchitectureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5994B593127CC35713FF11D /* Pods_SwiftCleanArchitectureUITests.framework */; };
-		CF26792E1F7CBED900E97558 /* ListUsersConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2679281F7CBED900E97558 /* ListUsersConfigurator.swift */; };
-		CF26792F1F7CBED900E97558 /* ListUsersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2679291F7CBED900E97558 /* ListUsersInteractor.swift */; };
-		CF2679301F7CBED900E97558 /* ListUsersModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26792A1F7CBED900E97558 /* ListUsersModels.swift */; };
-		CF2679311F7CBED900E97558 /* ListUsersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26792B1F7CBED900E97558 /* ListUsersPresenter.swift */; };
-		CF2679321F7CBED900E97558 /* ListUsersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26792C1F7CBED900E97558 /* ListUsersRouter.swift */; };
-		CF2679331F7CBED900E97558 /* ListUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26792D1F7CBED900E97558 /* ListUsersViewController.swift */; };
 		CF2679421F7CBFFA00E97558 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2679391F7CBFFA00E97558 /* Network.framework */; };
 		CF2679491F7CBFFA00E97558 /* NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2679481F7CBFFA00E97558 /* NetworkTests.swift */; };
 		CF26794B1F7CBFFA00E97558 /* Network.h in Headers */ = {isa = PBXBuildFile; fileRef = CF26793B1F7CBFFA00E97558 /* Network.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF26794E1F7CBFFA00E97558 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2679391F7CBFFA00E97558 /* Network.framework */; };
-		CF26794F1F7CBFFA00E97558 /* Network.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF2679391F7CBFFA00E97558 /* Network.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CF506FA91F7CCBFA00C9ED30 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF506FA01F7CCBFA00C9ED30 /* Domain.framework */; };
 		CF506FB01F7CCBFA00C9ED30 /* DomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF506FAF1F7CCBFA00C9ED30 /* DomainTests.swift */; };
 		CF506FB21F7CCBFA00C9ED30 /* Domain.h in Headers */ = {isa = PBXBuildFile; fileRef = CF506FA21F7CCBFA00C9ED30 /* Domain.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,13 +61,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = CFC016321F665ABD00934F84;
 			remoteInfo = SwiftCleanArchitecture;
-		};
-		CF26794C1F7CBFFA00E97558 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CFC0162B1F665ABD00934F84 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CF2679381F7CBFFA00E97558;
-			remoteInfo = Network;
 		};
 		CF506FAA1F7CCBFA00C9ED30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -144,7 +129,6 @@
 			files = (
 				CF506FD81F7CD7D600C9ED30 /* CoreDataPlatform.framework in Embed Frameworks */,
 				CF506FB61F7CCBFA00C9ED30 /* Domain.framework in Embed Frameworks */,
-				CF26794F1F7CBFFA00E97558 /* Network.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,12 +152,6 @@
 		9914F2A0920D0D6DAEF76809 /* Pods_SwiftCleanArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCleanArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B331B33BBA24279416C21BE5 /* Pods-SwiftCleanArchitectureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCleanArchitectureUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCleanArchitectureUITests/Pods-SwiftCleanArchitectureUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C25ADBBDC60EFA88AF99EC7A /* Pods-SwiftCleanArchitectureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCleanArchitectureUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCleanArchitectureUITests/Pods-SwiftCleanArchitectureUITests.release.xcconfig"; sourceTree = "<group>"; };
-		CF2679281F7CBED900E97558 /* ListUsersConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersConfigurator.swift; sourceTree = "<group>"; };
-		CF2679291F7CBED900E97558 /* ListUsersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersInteractor.swift; sourceTree = "<group>"; };
-		CF26792A1F7CBED900E97558 /* ListUsersModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersModels.swift; sourceTree = "<group>"; };
-		CF26792B1F7CBED900E97558 /* ListUsersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersPresenter.swift; sourceTree = "<group>"; };
-		CF26792C1F7CBED900E97558 /* ListUsersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersRouter.swift; sourceTree = "<group>"; };
-		CF26792D1F7CBED900E97558 /* ListUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersViewController.swift; sourceTree = "<group>"; };
 		CF2679391F7CBFFA00E97558 /* Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF26793B1F7CBFFA00E97558 /* Network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
 		CF26793C1F7CBFFA00E97558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -272,7 +250,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF506FB51F7CCBFA00C9ED30 /* Domain.framework in Frameworks */,
-				CF26794E1F7CBFFA00E97558 /* Network.framework in Frameworks */,
 				CF506FD71F7CD7D600C9ED30 /* CoreDataPlatform.framework in Frameworks */,
 				E44CF3D1F1C86DD318BF612E /* Pods_SwiftCleanArchitecture.framework in Frameworks */,
 			);
@@ -443,12 +420,6 @@
 		CFBDA6421F7CBAA600D86A7A /* List Users */ = {
 			isa = PBXGroup;
 			children = (
-				CF2679281F7CBED900E97558 /* ListUsersConfigurator.swift */,
-				CF2679291F7CBED900E97558 /* ListUsersInteractor.swift */,
-				CF26792A1F7CBED900E97558 /* ListUsersModels.swift */,
-				CF26792B1F7CBED900E97558 /* ListUsersPresenter.swift */,
-				CF26792C1F7CBED900E97558 /* ListUsersRouter.swift */,
-				CF26792D1F7CBED900E97558 /* ListUsersViewController.swift */,
 			);
 			path = "List Users";
 			sourceTree = "<group>";
@@ -681,7 +652,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				CF26794D1F7CBFFA00E97558 /* PBXTargetDependency */,
 				CF506FB41F7CCBFA00C9ED30 /* PBXTargetDependency */,
 				CF506FD61F7CD7D600C9ED30 /* PBXTargetDependency */,
 			);
@@ -1195,20 +1165,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF2679311F7CBED900E97558 /* ListUsersPresenter.swift in Sources */,
-				CF26792F1F7CBED900E97558 /* ListUsersInteractor.swift in Sources */,
 				11C29E4C1F7C294300AA2F19 /* Single+Moya+RxCodable.swift in Sources */,
-				CF2679331F7CBED900E97558 /* ListUsersViewController.swift in Sources */,
 				11C29E411F7C280400AA2F19 /* Single+Codable.swift in Sources */,
 				11C29E481F7C28FD00AA2F19 /* Maybe+Moya+RxCodable.swift in Sources */,
 				11C29E431F7C282300AA2F19 /* Maybe+Codable.swift in Sources */,
 				CFC016391F665ABD00934F84 /* ViewController.swift in Sources */,
-				CF2679321F7CBED900E97558 /* ListUsersRouter.swift in Sources */,
-				CF2679301F7CBED900E97558 /* ListUsersModels.swift in Sources */,
 				11C29E4A1F7C292000AA2F19 /* ObservableType+Moya+RxCodable.swift in Sources */,
 				CFC016371F665ABD00934F84 /* AppDelegate.swift in Sources */,
 				11C29E3F1F7C27DF00AA2F19 /* ObservableType+Codable.swift in Sources */,
-				CF26792E1F7CBED900E97558 /* ListUsersConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1240,11 +1204,6 @@
 			isa = PBXTargetDependency;
 			target = CFC016321F665ABD00934F84 /* SwiftCleanArchitecture */;
 			targetProxy = CF2679451F7CBFFA00E97558 /* PBXContainerItemProxy */;
-		};
-		CF26794D1F7CBFFA00E97558 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CF2679381F7CBFFA00E97558 /* Network */;
-			targetProxy = CF26794C1F7CBFFA00E97558 /* PBXContainerItemProxy */;
 		};
 		CF506FAB1F7CCBFA00C9ED30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
