@@ -6,7 +6,7 @@
 //  Copyright © 2017 wassimseif. All rights reserved.
 //
 
-import Foundation\
+import Foundation
 public class User : Codable{
     
 }
