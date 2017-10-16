@@ -9,13 +9,21 @@
 import Foundation
 protocol Repository {
     associatedtype T
+    
     func getAll() -> [T]
+    
     func getById(id: String) -> T
+    
     func insert(item: T)
+    
     func update(item: T)
+    
     func clean()
+    
     func deleteById(id: String)
+    
     func customAction()
+    
 }
 
 extension Repository{
