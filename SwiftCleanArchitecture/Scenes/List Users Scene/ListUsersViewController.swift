@@ -20,6 +20,7 @@ protocol ListUsersViewControllerInput {
 }
 class ListUsersViewController : UIViewController, UITableViewDelegate ,UITableViewDataSource, ListUsersViewControllerInput {
     
+    var output : ListUsersViewControllerOutput?
     var users : [Domain.User] = [Domain.User]()
     @IBOutlet weak var tableView : UITableView!{
         didSet {
@@ -29,8 +30,15 @@ class ListUsersViewController : UIViewController, UITableViewDelegate ,UITableVi
     }
     
     func getUsers(){
-        
+        let request = ListUsersModels.ListUsersViewControllerOutputRequest()
+        output?.getUsers(withRequest: request)
+            .subscribe({ (evenyt ) in
+                 
+            })
     }
+    
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.users.count
     }

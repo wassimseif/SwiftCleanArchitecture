@@ -44,6 +44,14 @@
 		CFC820791F950FA600B68D91 /* Network.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF2679391F7CBFFA00E97558 /* Network.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CFD74D841F9512FE0028AAAD /* ListUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD74D831F9512FE0028AAAD /* ListUsersViewController.swift */; };
 		CFD74D861F951A070028AAAD /* ListUsersModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD74D851F951A070028AAAD /* ListUsersModels.swift */; };
+		CFD74D8E1F951A7C0028AAAD /* AddUsersConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD74D881F951A7C0028AAAD /* AddUsersConfigurator.swift */; };
+		CFD74D8F1F951A7C0028AAAD /* AddUsersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD74D891F951A7C0028AAAD /* AddUsersInteractor.swift */; };
+		CFD74D901F951A7C0028AAAD /* AddUsersModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD74D8A1F951A7C0028AAAD /* AddUsersModels.swift */; };
+		CFD74D911F951A7C0028AAAD /* AddUsersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD74D8B1F951A7C0028AAAD /* AddUsersPresenter.swift */; };
+		CFD74D921F951A7C0028AAAD /* AddUsersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD74D8C1F951A7C0028AAAD /* AddUsersRouter.swift */; };
+		CFD74D931F951A7C0028AAAD /* AddUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD74D8D1F951A7C0028AAAD /* AddUsersViewController.swift */; };
+		CFD74D951F951B140028AAAD /* ListUsersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD74D941F951B140028AAAD /* ListUsersInteractor.swift */; };
+		CFD74D971F951C070028AAAD /* GetUsersAPIWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD74D961F951C070028AAAD /* GetUsersAPIWorker.swift */; };
 		E44CF3D1F1C86DD318BF612E /* Pods_SwiftCleanArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9914F2A0920D0D6DAEF76809 /* Pods_SwiftCleanArchitecture.framework */; };
 		ED7DD9A7943D4845D127E811 /* Pods_SwiftCleanArchitectureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206352664FD7C2787DFC1010 /* Pods_SwiftCleanArchitectureTests.framework */; };
 		F35D6629567DB5797665620B /* Pods_NetworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF68D7C3A33F2A215AC0A7EA /* Pods_NetworkTests.framework */; };
@@ -203,6 +211,14 @@
 		CFC820761F950ECD00B68D91 /* Single+Moya+RxCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Single+Moya+RxCodable.swift"; sourceTree = "<group>"; };
 		CFD74D831F9512FE0028AAAD /* ListUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersViewController.swift; sourceTree = "<group>"; };
 		CFD74D851F951A070028AAAD /* ListUsersModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersModels.swift; sourceTree = "<group>"; };
+		CFD74D881F951A7C0028AAAD /* AddUsersConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUsersConfigurator.swift; sourceTree = "<group>"; };
+		CFD74D891F951A7C0028AAAD /* AddUsersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUsersInteractor.swift; sourceTree = "<group>"; };
+		CFD74D8A1F951A7C0028AAAD /* AddUsersModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUsersModels.swift; sourceTree = "<group>"; };
+		CFD74D8B1F951A7C0028AAAD /* AddUsersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUsersPresenter.swift; sourceTree = "<group>"; };
+		CFD74D8C1F951A7C0028AAAD /* AddUsersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUsersRouter.swift; sourceTree = "<group>"; };
+		CFD74D8D1F951A7C0028AAAD /* AddUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUsersViewController.swift; sourceTree = "<group>"; };
+		CFD74D941F951B140028AAAD /* ListUsersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersInteractor.swift; sourceTree = "<group>"; };
+		CFD74D961F951C070028AAAD /* GetUsersAPIWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUsersAPIWorker.swift; sourceTree = "<group>"; };
 		D5994B593127CC35713FF11D /* Pods_SwiftCleanArchitectureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCleanArchitectureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB41FE8170E19D1B1AB2B916 /* Pods-Network.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Network.release.xcconfig"; path = "Pods/Target Support Files/Pods-Network/Pods-Network.release.xcconfig"; sourceTree = "<group>"; };
 		F4D44AE4029DBA410DD5FD69 /* Pods-SwiftCleanArchitecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCleanArchitecture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCleanArchitecture/Pods-SwiftCleanArchitecture.debug.xcconfig"; sourceTree = "<group>"; };
@@ -483,6 +499,7 @@
 		CFD74D801F9512D80028AAAD /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				CFD74D871F951A6E0028AAAD /* Add */,
 				CFD74D811F9512E10028AAAD /* List Users Scene */,
 			);
 			path = Scenes;
@@ -491,10 +508,25 @@
 		CFD74D811F9512E10028AAAD /* List Users Scene */ = {
 			isa = PBXGroup;
 			children = (
-				CFD74D831F9512FE0028AAAD /* ListUsersViewController.swift */,
 				CFD74D851F951A070028AAAD /* ListUsersModels.swift */,
+				CFD74D831F9512FE0028AAAD /* ListUsersViewController.swift */,
+				CFD74D941F951B140028AAAD /* ListUsersInteractor.swift */,
+				CFD74D961F951C070028AAAD /* GetUsersAPIWorker.swift */,
 			);
 			path = "List Users Scene";
+			sourceTree = "<group>";
+		};
+		CFD74D871F951A6E0028AAAD /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				CFD74D881F951A7C0028AAAD /* AddUsersConfigurator.swift */,
+				CFD74D891F951A7C0028AAAD /* AddUsersInteractor.swift */,
+				CFD74D8A1F951A7C0028AAAD /* AddUsersModels.swift */,
+				CFD74D8B1F951A7C0028AAAD /* AddUsersPresenter.swift */,
+				CFD74D8C1F951A7C0028AAAD /* AddUsersRouter.swift */,
+				CFD74D8D1F951A7C0028AAAD /* AddUsersViewController.swift */,
+			);
+			path = Add;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1178,9 +1210,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD74D931F951A7C0028AAAD /* AddUsersViewController.swift in Sources */,
+				CFD74D911F951A7C0028AAAD /* AddUsersPresenter.swift in Sources */,
+				CFD74D901F951A7C0028AAAD /* AddUsersModels.swift in Sources */,
+				CFD74D951F951B140028AAAD /* ListUsersInteractor.swift in Sources */,
+				CFD74D971F951C070028AAAD /* GetUsersAPIWorker.swift in Sources */,
 				CFD74D861F951A070028AAAD /* ListUsersModels.swift in Sources */,
+				CFD74D921F951A7C0028AAAD /* AddUsersRouter.swift in Sources */,
 				CFC016371F665ABD00934F84 /* AppDelegate.swift in Sources */,
+				CFD74D8F1F951A7C0028AAAD /* AddUsersInteractor.swift in Sources */,
 				CFD74D841F9512FE0028AAAD /* ListUsersViewController.swift in Sources */,
+				CFD74D8E1F951A7C0028AAAD /* AddUsersConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

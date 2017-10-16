@@ -11,4 +11,8 @@ struct ListUsersModels {
     struct ListUsersViewControllerOutputRequest {
         
     }
+    struct GetUsersApiWorkerInputRequest {
+        
+        
+    }
 }
