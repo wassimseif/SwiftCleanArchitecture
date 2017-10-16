@@ -41,6 +41,8 @@
 		CFC820731F950EAF00B68D91 /* Maybe+Moya+RxCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC820721F950EAF00B68D91 /* Maybe+Moya+RxCodable.swift */; };
 		CFC820751F950EC000B68D91 /* ObservableType+Moya+RxCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC820741F950EC000B68D91 /* ObservableType+Moya+RxCodable.swift */; };
 		CFC820771F950ECD00B68D91 /* Single+Moya+RxCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC820761F950ECD00B68D91 /* Single+Moya+RxCodable.swift */; };
+		CFC820781F950FA600B68D91 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2679391F7CBFFA00E97558 /* Network.framework */; };
+		CFC820791F950FA600B68D91 /* Network.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF2679391F7CBFFA00E97558 /* Network.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E44CF3D1F1C86DD318BF612E /* Pods_SwiftCleanArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9914F2A0920D0D6DAEF76809 /* Pods_SwiftCleanArchitecture.framework */; };
 		ED7DD9A7943D4845D127E811 /* Pods_SwiftCleanArchitectureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206352664FD7C2787DFC1010 /* Pods_SwiftCleanArchitectureTests.framework */; };
 		F35D6629567DB5797665620B /* Pods_NetworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF68D7C3A33F2A215AC0A7EA /* Pods_NetworkTests.framework */; };
@@ -118,6 +120,13 @@
 			remoteGlobalIDString = CFC016321F665ABD00934F84;
 			remoteInfo = SwiftCleanArchitecture;
 		};
+		CFC8207A1F950FA600B68D91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC0162B1F665ABD00934F84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF2679381F7CBFFA00E97558;
+			remoteInfo = Network;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -129,6 +138,7 @@
 			files = (
 				CF506FD81F7CD7D600C9ED30 /* CoreDataPlatform.framework in Embed Frameworks */,
 				CF506FB61F7CCBFA00C9ED30 /* Domain.framework in Embed Frameworks */,
+				CFC820791F950FA600B68D91 /* Network.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +262,7 @@
 				CF506FB51F7CCBFA00C9ED30 /* Domain.framework in Frameworks */,
 				CF506FD71F7CD7D600C9ED30 /* CoreDataPlatform.framework in Frameworks */,
 				E44CF3D1F1C86DD318BF612E /* Pods_SwiftCleanArchitecture.framework in Frameworks */,
+				CFC820781F950FA600B68D91 /* Network.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,6 +641,7 @@
 			dependencies = (
 				CF506FB41F7CCBFA00C9ED30 /* PBXTargetDependency */,
 				CF506FD61F7CD7D600C9ED30 /* PBXTargetDependency */,
+				CFC8207B1F950FA600B68D91 /* PBXTargetDependency */,
 			);
 			name = SwiftCleanArchitecture;
 			productName = SwiftCleanArchitecture;
@@ -1220,6 +1232,11 @@
 			isa = PBXTargetDependency;
 			target = CFC016321F665ABD00934F84 /* SwiftCleanArchitecture */;
 			targetProxy = CFC016561F665ABD00934F84 /* PBXContainerItemProxy */;
+		};
+		CFC8207B1F950FA600B68D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF2679381F7CBFFA00E97558 /* Network */;
+			targetProxy = CFC8207A1F950FA600B68D91 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
