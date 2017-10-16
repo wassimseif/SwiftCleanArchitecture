@@ -13,9 +13,16 @@ import Domain
 
 class ListUsersInteractor : ListUsersViewControllerOutput{
     
-    var getUsersAPIWorker : 
+    var getUsersAPIWorker :  GetUsersAPIWorker?
     
     func getUsers(withRequest request: ListUsersModels.ListUsersViewControllerOutputRequest) -> Observable<[User]> {
+        return Observable.create{ observer  in
+            
+            return Disposables.create {
+                print(#function + " Disposed")
+            }
+        }
+        
         
     }
     

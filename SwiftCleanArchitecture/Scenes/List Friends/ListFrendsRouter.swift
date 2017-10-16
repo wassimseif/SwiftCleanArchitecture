@@ -1,5 +1,5 @@
 //
-//  AddUsersRouter.swift
+//  ListFrendsRouter.swift
 //  SwiftCleanArchitecture
 //
 //  Created by Wassim on 10/16/17.
@@ -10,25 +10,25 @@
 
 import UIKit
 
-protocol AddUsersRouterInput {
+protocol ListFrendsRouterInput {
     
 }
 
-protocol AddUsersRouterDataSource: class {
+protocol ListFrendsRouterDataSource: class {
     
 }
 
-protocol AddUsersRouterDataDestination: class {
+protocol ListFrendsRouterDataDestination: class {
     
 }
 
-class AddUsersRouter: AddUsersRouterInput {
+class ListFrendsRouter: ListFrendsRouterInput {
     
-    weak var viewController: AddUsersViewController!
-    weak private var dataSource: AddUsersRouterDataSource!
-    weak var dataDestination: AddUsersRouterDataDestination!
+    weak var viewController: ListFrendsViewController!
+    weak private var dataSource: ListFrendsRouterDataSource!
+    weak var dataDestination: ListFrendsRouterDataDestination!
     
-    init(viewController: AddUsersViewController, dataSource: AddUsersRouterDataSource, dataDestination: AddUsersRouterDataDestination) {
+    init(viewController: ListFrendsViewController, dataSource: ListFrendsRouterDataSource, dataDestination: ListFrendsRouterDataDestination) {
         self.viewController = viewController
         self.dataSource = dataSource
         self.dataDestination = dataDestination
