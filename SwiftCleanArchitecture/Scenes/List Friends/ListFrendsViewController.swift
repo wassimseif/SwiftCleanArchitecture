@@ -48,7 +48,7 @@ class ListFrendsViewController: UIViewController, ListFrendsViewControllerInput 
     // MARK: Requests
     func getListOfFriends(){
         let getFriendsRequest = ListFrendsScene.ListFriendsRequest(myUserId: "1")
-        output?.getFreinds(withRequest: getFriendsRequest)
+        output?.getFriends(withRequest: getFriendsRequest)
     }
     
     // MARK: Display logic
