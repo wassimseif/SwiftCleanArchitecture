@@ -22,13 +22,9 @@ protocol Repository {
     
     func deleteById(id: String)
     
-    func customAction()
-    
 }
 
 extension Repository{
     
-    func customAction(){
-        
-    }
+    
 }
