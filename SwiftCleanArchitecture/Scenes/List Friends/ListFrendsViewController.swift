@@ -22,9 +22,11 @@ protocol ListFrendsViewControllerOutput {
 class ListFrendsViewController: UIViewController, ListFrendsViewControllerInput , UITableViewDelegate , UITableViewDataSource{
     
     var output: ListFrendsViewControllerOutput?
+    
     var router: ListFrendsRouter?
    
     var users : [Domain.User] = [Domain.User]()
+    
     @IBOutlet weak var tableView : UITableView! {
         didSet {
             tableView.delegate = self

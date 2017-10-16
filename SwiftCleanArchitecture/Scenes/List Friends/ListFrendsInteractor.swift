@@ -28,6 +28,7 @@ class ListFrendsInteractor: ListFrendsInteractorInput, ListFrendsDataSource, Lis
     
     var output: ListFrendsInteractorOutput?
     
+    var getFriendsAPIWorker : GetFriendsAPIWorker!
     
     // MARK: Business logic
     

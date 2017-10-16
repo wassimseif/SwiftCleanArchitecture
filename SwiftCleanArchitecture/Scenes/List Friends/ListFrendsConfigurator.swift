@@ -16,6 +16,8 @@ extension ListFrendsInteractor: ListFrendsViewControllerOutput, ListFrendsRouter
     
     func getFriends(withRequest request: ListFrendsScene.ListFriendsRequest) {
         
+        self.getFriendsAPIWorker = GetFriendsAPIWorker(withRequest: GetFriendsAPIWorkerRequest(userId: request.myUserId))
+        self.getFriendsAPIWorker.work()
     }
 }
 
