@@ -25,3 +25,4 @@ public extension PrimitiveSequence where TraitType == SingleTrait, ElementType =
             .map(type, using: decoder)
     }
 }
+

@@ -1,5 +1,5 @@
 //
-//  Single+Moya+RxCodable.swift
+//  Maybe+Moya+RxCodable.swift
 //  SwiftCleanArchitecture
 //
 //  Created by Wassim Seifeddine on 9/27/17.
@@ -14,10 +14,11 @@ import RxSwift
     import RxCodable
 #endif
 
-public extension PrimitiveSequence where TraitType == SingleTrait, ElementType == Moya.Response {
+public extension PrimitiveSequence where TraitType == MaybeTrait, ElementType == Moya.Response {
     public func map<T>(_ type: T.Type, using decoder: JSONDecoder? = nil) -> PrimitiveSequence<TraitType, T> where T: Decodable {
         return self
             .map { response in response.data }
             .map(type, using: decoder)
     }
 }
+

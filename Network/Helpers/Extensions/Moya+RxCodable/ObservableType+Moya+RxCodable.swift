@@ -21,3 +21,4 @@ public extension ObservableType where E == Moya.Response {
             .map(type, using: decoder)
     }
 }
+
