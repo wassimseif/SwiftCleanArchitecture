@@ -14,3 +14,7 @@ Main programming/iOS aspects featured here:
 ```
 
 Our goal is to create a simple "Friends" app that will contain a list of all your friends & their birthdays.
+
+<div style='float: center'>
+  <img src="Images/clean-swift.png"></img>
+</div>
